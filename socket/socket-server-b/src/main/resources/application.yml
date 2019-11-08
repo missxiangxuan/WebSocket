@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /socketserver
+  port: 8002
