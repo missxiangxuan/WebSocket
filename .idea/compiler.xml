@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="socket-client-a" />
+        <module name="socket-client-b" />
+        <module name="socket-server-a" />
+        <module name="socket-server-b" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="socket-client-a" target="1.8" />
+      <module name="socket-client-b" target="1.8" />
+      <module name="socket-server-a" target="1.8" />
+      <module name="socket-server-b" target="1.8" />
+      <module name="WebSocket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
