@@ -21,11 +21,11 @@ public class BSocketClientApp {
     }
 
 
-    @Bean
+    @Bean("clientB")
     public MyWebSocketClient webSocketClient() {
         try {
             // ws修改成http
-            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8001/ES/weixinWebSocket"));
+            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8000/ES/weixinWebSocket"));
             webSocketClient.connect();
             return webSocketClient;
         } catch (URISyntaxException e) {

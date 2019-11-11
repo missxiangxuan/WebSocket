@@ -11,6 +11,8 @@
     <modules>
         <module>socket-server-a</module>
         <module>socket-server-b</module>
+        <module>socket-client-a</module>
+        <module>socket-client-b</module>
         <module>socket-client-c</module>
         <module>socket-client-d</module>
     </modules>

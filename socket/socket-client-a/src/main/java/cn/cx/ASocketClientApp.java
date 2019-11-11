@@ -21,10 +21,10 @@ public class ASocketClientApp {
     }
 
 
-    @Bean
+    @Bean("clientA")
     public MyWebSocketClient webSocketClient() {
         try {
-            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8001/ES/weixinWebSocket"));
+            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8000/ES/weixinWebSocket"));
             webSocketClient.connect();
             return webSocketClient;
         } catch (URISyntaxException e) {
