@@ -24,7 +24,7 @@ public class ASocketClientApp {
     @Bean
     public MyWebSocketClient webSocketClient() {
         try {
-            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8000/socketserver/websocket"));
+            MyWebSocketClient webSocketClient = new MyWebSocketClient(new URI("ws://127.0.0.1:8001/ES/weixinWebSocket"));
             webSocketClient.connect();
             return webSocketClient;
         } catch (URISyntaxException e) {
