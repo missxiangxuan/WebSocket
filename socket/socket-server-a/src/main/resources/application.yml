@@ -2,3 +2,10 @@ server:
   servlet:
     context-path: /socketserver
   port: 8001
+  http:
+   port: 8077
+  ssl:
+    key-alias: tomcat
+    key-store: classpath:tomcat.p12
+    key-store-type: PKCS12
+    key-store-password: 123456
